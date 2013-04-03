@@ -17,9 +17,9 @@ class article_toolbar_small extends Plugin {
 		$host->add_hook($host::HOOK_TOOLBAR_BUTTON, $this);
 	}
 
-//	function get_js() {
-//		return file_get_contents(dirname(__FILE__) . "/toolbar.js");
-//	}
+	function get_js() {
+		return file_get_contents(dirname(__FILE__) . "/toolbar.js");
+	}
 
 	function HOOK_TOOLBAR_BUTTON() {
 		require_once dirname(__FILE__) . "/toolbar_body.php";
