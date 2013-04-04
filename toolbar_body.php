@@ -4,6 +4,9 @@
 	print_user_stylesheet($link)
 ?>
 
+			<button class="button_nav" title="Toggle Expanded View" onclick="showFeedsWithErrors()">
+			<img src="images/alert.png" alt="Show Feeds with erors"></button>
+			
 			<button class="button_nav" title="Toggle Expanded View" onclick="toggle_cdm_expanded()">
 			<img src="plugins/article_toolbar_small/images/list.png" alt="Mark as read"></button>
 
