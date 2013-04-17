@@ -1,17 +1,15 @@
 <?php
 class article_toolbar_small extends Plugin {
 
-	private $link;
 	private $host;
 
 	function about() {
-		return array(1.0,
+		return array(1.1,
 			"Small Toolbar for easy access to feed functions",
 			"idoxlr8", false);
 	}
 
 	function init($host) {
-		$this->link = $host->get_link();
 		$this->host = $host;
 
 		$host->add_hook($host::HOOK_TOOLBAR_BUTTON, $this);
