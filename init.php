@@ -23,7 +23,9 @@ class article_toolbar_small extends Plugin {
 		require_once dirname(__FILE__) . "/toolbar_body.php";
 	}
 
-
+  function api_version() {
+    return 2;
+  } 
 
 }
 ?>
