@@ -6,6 +6,9 @@
 			<button  class="button_nav" title="Subscribe To Feed" onclick="quickMenuGo('qmcAddFeed')">
 			<img src="plugins/article_toolbar_small/images/feed.png" alt="Subscribe To Feed"></button>
 
+			<button class="button_nav" title="Toggle Expanded View" onclick="showFeedsWithErrors()">
+			<img src="images/alert.png" alt="Show Feeds with erors"></button>
+			
 			<button class="button_nav" title="Toggle Expanded View" onclick="toggle_cdm_expanded()">
 			<img src="plugins/article_toolbar_small/images/list.png" alt="Toggle Expanded View"></button>
 
